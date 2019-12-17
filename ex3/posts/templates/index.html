@@ -17,6 +17,8 @@
             <div class="card-body">
                 <h5 class="card-title">{{ post.titulo }}</h5>
                 <p class="card-text">{{ post.conteudo }}</p>
+                <p class="card-text">{{ post.nome }}</p>
+                <a href="formulario/delete/{{item.id}}">Deletar</a>
             </div>
         </div>
         {% endfor %}
